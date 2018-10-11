@@ -1,0 +1,503 @@
+@font-face{
+	font-family: Sabelia;
+	font-family: Tahoma;
+	font-family: Slimamif;
+	font-family: Lato;
+	src:url(fonts/Lato.ttf);
+	src:url(fonts/Sabelia.ttf);
+	src:url(fonts/Tahoma.ttf);
+	src:url(fonts/Slimamif.ttf);
+}
+/*стилизация хедера*/
+.header{
+	width: 100%;
+	padding: 30px 0 35px 0;
+	font-family: Tahoma;
+}
+.header img{
+	display: inline;
+	float: left;
+}
+.header .p1{
+	font-size: 13px;
+	margin-left: 70px;
+}
+.header .p2{
+	font-size: 12px;
+	margin-left: 70px;
+}
+.header hr{
+	width: 100%;
+	background: rgb(236,236,236);
+	
+}
+
+/*Стилизация первого списка хедера*/
+.header button{
+	width: 40px;
+	height: 40px;
+	background: rgb(108,108,108);
+}
+#spisok-1 .a-1 {
+	color: rgb(108,108,108);
+	font-weight: bold;
+}
+.home{
+	color:black;
+	font-weight: bolder;
+}
+
+/*Стилизация второго списка хедера*/
+#spisok-2{
+	font-size: 15px;
+}
+#spisok-2 li{
+	display: inline;
+}
+#spisok-2 li i{
+	font-size: 18px;
+	font-weight: bolder;
+	color: black;
+}
+/*стилизация первой секции*/
+.section-1{
+	width: 100%;
+	background: url(image/image-section-1/main-baner-image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 180px;
+	padding-bottom: 180px;
+}
+.section-1 h1{
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: Tahoma;
+}
+.section-1 p{
+	font-size: 18px;
+	font-family: Tahoma;
+	margin-top: 28px;
+}
+.section-1 button{
+	width: 165px;
+	height: 45px;
+	border-radius: 20px;
+	border:0;
+	outline: none;
+	background:rgb(26,155,220);
+	color: white;
+	margin-top: 28px;
+}
+/*стилизация второй секции*/
+.section-2{
+	width: 100%;
+	background: rgb(67,177,210);
+	padding:70px 0 52px 0;
+	font-family: Tahoma;
+}
+.section-2 h1{
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+}
+.section-2 p{
+	font-size: 14px;
+	color: white;
+}
+/*стилизация третей секции*/
+.section-3{
+	background: url(image/image-section-3/image-section-3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 80px 0 70px 0;
+	font-family: Tahoma;
+}
+.section-3 h1{
+	color: rgb(73,73,73);
+	font-size: 50px;
+	font-weight: bolder;
+}
+.section-3 p{
+	color: rgb(108,108,108);
+	font-size: 15px;
+}
+.section-3 .spisok-3-1, .spisok-3-2{
+	list-style: none;
+	margin-top: 140px;
+}
+.section-3 .spisok-3-1 li:nth-child(1){
+	background: url(image/image-section-3/1.png) no-repeat;
+    padding: 0 0 0 90px;
+}
+.section-3 .spisok-3-1 li:nth-child(2){
+	background: url(image/image-section-3/2.png) no-repeat;
+    padding: 0 0 0 90px;
+}
+.section-3 .spisok-3-2 li:nth-child(1){
+	background: url(image/image-section-3/3.png) no-repeat;
+    padding: 0 0 0 90px;
+}
+.section-3 .spisok-3-2 li:nth-child(2){
+	background: url(image/image-section-3/4.png) no-repeat;
+    padding: 0 0 0 90px;
+}
+.section-3 .spisok-3-1 h1, .spisok-3-2 h1{
+	font-size: 40px;
+}
+/*стилизация четвертой секции*/
+.section-4{
+	background: url(image/image-section-4/image-section-4.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0 155px 0;
+}
+.section-4 .figure-1 figcaption h1{
+	color: white;
+	text-align: center;
+}
+.section-4 .figure-2 figcaption h1{
+	margin-top: 28px;
+	font-size: 16px
+	font-weight:bolder;
+	color: white;
+	text-align: center;
+}
+.section-4 .figure-3 figcaption h1{
+	margin-top: 37px;
+	font-size: 16px
+	font-weight:bolder;
+	color: white;
+	text-align: center;
+}
+.section-4 .figure-4 figcaption h1{
+	font-size: 16px;
+	font-weight:bolder;
+	margin-top: 27px;
+	color: white;
+	text-align: center;
+}
+.section-4 figure h1{
+	font-size: 16px;
+	font-weight:bolder;
+}
+/*/////////////////////////////*/
+
+.section-4   hr{
+	width:100px;
+	height: 10px;
+	color: white;
+	margin: 0 auto;
+}
+.section-4 img{
+	margin: 0 auto;
+}
+.section-4 p{
+	text-align: center;
+	color: white;
+}
+/*/////////////////////////////*/
+/*стилизация пятой секции*/
+.section-5{
+	width: 100%;
+	padding: 100px 0 100px 0;
+	font-family: Tahoma;
+}
+.section-5 h1{
+	font-weight: bolder;
+}
+.section-5 p{
+	font-size: 14px;
+	color: rgb(108,108,108);
+}
+.section-5 figcaption h1{
+	margin-top: 35px;
+	font-size: 20px;
+	color: rgb(108,108,108);
+}
+.section-5 figcaption span{
+	margin-top: 18px;
+	font-size: 14px;
+	color: rgb(0,135,190);
+}
+.section-5 figcaption p{
+	margin-top: 18px;
+	font-size: 14px;
+}
+.section-5 .button-6{
+	width: 155px;
+	height: 43px;
+	border-radius: 15px;
+	border:0;
+	outline: none;
+	margin-top: 52px;
+	background: rgb(0,135,190);
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 0 50px rgba(0,0,0,0.3); /* Параметры тени */
+}
+/*/////////////////////////////*/
+/*стилизация шестой секции*/
+.section-6{
+	background: url(image/image-section-6/image-section-6.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 95px 0 95px 0;
+	font-family: Tahoma;
+	color: white;
+}
+.section-6 p{
+	font-size: 18px;
+	margin-top: 38px;
+
+}
+.section-6 h1{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.section-6 img{
+	margin-top: 35px;
+}
+/*/////////////////////////////*/
+/*стилизация седьмой секции*/
+.section-7{
+	width: 100%;
+	padding: 150px 0 134px 0;
+	font-family: Tahoma;
+}
+.section-7 p{
+	font-size: 18px;
+	margin-top: 38px;
+	color: rgb(143,143,143);
+
+}
+.section-7 h1{
+	font-size: 50px;
+	font-weight: bolder;
+	color: rgb(73,73,73);
+}
+.section-7 figure figcaption h1{
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	color: rgb(138,138,138);
+}
+.section-7 figure figcaption p{
+	font-size: 18px;
+	text-align: center;
+	color: rgb(138,138,138);
+	margin-top: 15px;
+}
+.section-7 li{
+	list-style: none;
+	display: inline;
+	margin: 15px;
+	font-size: 20px;
+	text-align: center;
+}
+/*/////////////////////////////*/
+/*стилизация восьмой секции*/
+.section-8{
+	padding: 66px 0 51px 0;
+	background: rgb(226,226,226);
+}
+.section-8 h1{
+	font-size: 30px;
+	font-weight: bolder;
+}
+	.section-8 button{
+		width: 190px;
+		height: 54px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		border-radius:40px;
+		background: rgb(0,136,190);
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		border:0;
+	outline: none;
+}
+/*/////////////////////////////*/
+/*стилизация девятой секции*/
+.section-9{
+	padding: 106px 0 98px 0;
+	background: rgb(23,23,23);
+}
+.section-9 i{
+   	display: block;
+   	font-size: 40px;
+   	margin-top: 65px;
+   }
+  .section-9 .h9-1{
+   	margin-top: 68px;
+   	color: rgb(143,143,143);
+   	font-size: 14px;
+
+   }
+   .spisok-9-1{
+	list-style: none;
+	margin-top: 78px;
+}
+.spisok-9-1 li:nth-child(1) {
+    background: url(image/image-section-9/strelka.png) no-repeat;
+    padding: 0 0 0 20px;
+}
+.spisok-9-1 li:nth-child(2) {
+    background: url(image/image-section-9/strelka.png) no-repeat;
+    padding: 0 0 0 20px;
+}
+.spisok-9-1 li:nth-child(3) {
+    background: url(image/image-section-9/strelka.png) no-repeat;
+    padding: 0 0 0 20px;
+}
+.spisok-9-1 li:nth-child(4) {
+    background: url(image/image-section-9/strelka.png) no-repeat;
+    padding: 0 0 0 20px;
+}
+.spisok-9-1 li:nth-child(5) {
+    background: url(image/image-section-9/strelka.png) no-repeat;
+    padding: 0 0 0 20px;
+}
+.spisok-9-1 li:nth-child(6) {
+    background: url(image/image-section-9/strelka.png) no-repeat;
+    padding: 0 0 0 20px;
+}
+.spisok-9-1 li{
+	font-size: 14px;
+	color: rgb(143,143,143);
+	margin-top: 20px;
+}
+/*работа с формами*/
+.section-9 form{
+	margin-top: 70px;
+}
+.section-9 input,textarea{
+	width: 226px;
+	background: transparent;
+	margin-top: 10px;
+	border-right-style: none;
+	border-left-style: none;
+	border-top-style: none;;
+}
+.section-9 textarea{
+	height: 154px;
+}
+.section-9 button:hover {
+    background: rgb(0,135,190); 
+    color: rgb(226,226,226); 
+}
+.section-9 button{
+	width: 124px;
+	height: 35px;
+	border-radius: 45px;
+	color: white;
+	font-size: 18px;
+	background: blue;
+	margin-top: 23px;
+	border:0;
+	outline: none;
+}
+.spisok9-2{
+	margin-right: 40px;
+	margin-top: 60px;
+}
+.spisok9-2 i{
+	display: inline;
+	font-size: 30px;
+	color: white;
+}
+.spisok9-2 li{
+	display: inline;
+	list-style: none;
+	margin: 25px;
+}
+.footer{
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 45px;
+	background: rgb(26,26,26);
+}
+.footer h1{
+	font-size: 14px;
+	color: rgb(97,85,85);
+}
+/*медиа запросы*/
+@media(max-width: 1024px){
+
+	.header .massage, .header .time, .header .call{
+		display: none;
+	}
+	.header p {
+		display: none;
+	}
+	.section-4{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.section-1{
+		background: linear-gradient(to right, rgb(206,215,321), rgb(242,244,249));
+		padding: 50px 0 50px 0;
+	}
+	.section-1 h1{
+		font-size: 30px;
+	}
+	.section-2 img{
+		width: 100px;height: 100px;
+	}
+	.section-2 figcaption p{
+		font-size: 20px;
+		text-align: justify;
+	}
+}
+/*
+	<ul class="spisok-2">
+						<li>
+							<a href="https://www.facebook.com/">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://plus.google.com/">
+								<i class="fab fa-google-plus-g"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://vk.com/">
+								<i class="fab fa-vk"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</li>
+					</ul>
+
+
+					/////////////////////////
+					<li><span><a href="">Home</a></span></li>
+									<li><a href="" class="a-1">About</a></li>
+									<li><a href="" class="a-1">Services</a></li>
+									<li><a href="" class="a-1">Gallery</a></li>
+									<li><a href="" class="a-1">Blog</a></li>
+									<li><a href="" class="a-1">Contact us</a></li>				
+
+					<ul class="spisok-1">
+						<li><span><a href="">Home</a></span></li>
+						<li><a href="" class="a-1">About</a></li>
+						<li><a href="" class="a-1">Services</a></li>
+						<li><a href="" class="a-1">Gallery</a></li>
+						<li><a href="" class="a-1">Blog</a></li>
+						<li><a href="" class="a-1">Contact us</a></li>
+					</ul>
+
+
+
+
+*/
+
+
